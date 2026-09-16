@@ -246,29 +246,16 @@ The most important open-source project in this space is **Docassemble**, an MIT-
 
 # 📄 Open-Source Document Assembly
 
-
-
-| Project                                                                               | Description                                                | License             |
-
-| ------------------------------------------------------------------------------------- | ---------------------------------------------------------- | ------------------- |
-
-| [Docassemble](https://github.com/jhpyle/docassemble)                                  | Full-stack guided interviews and legal document assembly   | MIT                 |
-
-| [docassemble-AssemblyLine](https://github.com/SuffolkLITLab/docassemble-AssemblyLine) | Framework for rapidly building legal form interviews       | MIT                 |
-
-| [docassemble-ALWeaver](https://github.com/SuffolkLITLab/docassemble-ALWeaver)         | Generates Docassemble interview scaffolding from documents | Open Source         |
-
-| [open-agreements](https://github.com/CommonAccord/open-agreements)                    | Structured legal agreement templates                       | Apache-2.0          |
-
-| [CommonAccord](https://github.com/CommonAccord)                                       | Structured and composable legal agreements                 | MIT / OSS ecosystem |
-
-| [Accord Project](https://github.com/accordproject)                                    | Smart legal contracts and templating                       | Apache-2.0          |
-
-| [Cicero](https://github.com/accordproject/cicero)                                     | Template language and engine for legal agreements          | Apache-2.0          |
-
-| [Wraft](https://github.com/wraft/wraft)                                               | Document lifecycle and generation platform                 | AGPL-3.0            |
-
-
+| Project | Description | Stars | License |
+| :--- | :--- | :---: | :--- |
+| [Docassemble](https://github.com/jhpyle/docassemble) | Full-stack guided interviews and legal document assembly | [<img src="https://img.shields.io/github/stars/jhpyle/docassemble?style=social&color=white" alt="Stars"/>](https://github.com/jhpyle/docassemble/stargazers) | MIT |
+| [Accord Project](https://github.com/accordproject) | Smart legal contracts and templating | [<img src="https://img.shields.io/github/stars/accordproject/cicero?style=social&color=white" alt="Stars"/>](https://github.com/accordproject/cicero/stargazers) | Apache-2.0 |
+| [Cicero](https://github.com/accordproject/cicero) | Template language and engine for legal agreements | [<img src="https://img.shields.io/github/stars/accordproject/cicero?style=social&color=white" alt="Stars"/>](https://github.com/accordproject/cicero/stargazers) | Apache-2.0 |
+| [Wraft](https://github.com/wraft/wraft) | Document lifecycle and generation platform | [<img src="https://img.shields.io/github/stars/wraft/wraft?style=social&color=white" alt="Stars"/>](https://github.com/wraft/wraft/stargazers) | AGPL-3.0 |
+| [CommonAccord](https://github.com/CommonAccord) | Structured and composable legal agreements | [<img src="https://img.shields.io/github/stars/CommonAccord?style=social&color=white" alt="Stars"/>](https://github.com/CommonAccord/stargazers) | MIT / OSS ecosystem |
+| [docassemble-AssemblyLine](https://github.com/SuffolkLITLab/docassemble-AssemblyLine) | Framework for rapidly building legal form interviews | [<img src="https://img.shields.io/github/stars/SuffolkLITLab/docassemble-AssemblyLine?style=social&color=white" alt="Stars"/>](https://github.com/SuffolkLITLab/docassemble-AssemblyLine/stargazers) | MIT |
+| [docassemble-ALWeaver](https://github.com/SuffolkLITLab/docassemble-ALWeaver) | Generates Docassemble interview scaffolding from documents | [<img src="https://img.shields.io/github/stars/SuffolkLITLab/docassemble-ALWeaver?style=social&color=white" alt="Stars"/>](https://github.com/SuffolkLITLab/docassemble-ALWeaver/stargazers) | Open Source |
+| [open-agreements](https://github.com/CommonAccord/open-agreements) | Structured legal agreement templates | [<img src="https://img.shields.io/github/stars/CommonAccord/open-agreements?style=social&color=white" alt="Stars"/>](https://github.com/CommonAccord/open-agreements/stargazers) | Apache-2.0 |
 
 Docassemble supports several document-generation approaches, including Markdown-generated documents, DOCX templates using Jinja2 and fillable PDF templates.
 
@@ -280,67 +267,35 @@ Docassemble supports several document-generation approaches, including Markdown-
 
 # 🧑‍⚖️ Open-Source Legal Interview Platforms
 
-
-
 Guided interviews are the core mechanism behind many legal-document automation systems.
 
-
-
 ```text
-
 Question
-
    │
-
    ▼
-
 Answer
-
    │
-
    ▼
-
 Conditional Logic
-
    │
-
    ├──► More Questions
-
    │
-
    ├──► Optional Clause
-
    │
-
    └──► Different Template
-
    │
-
    ▼
-
 Generated Legal Document
-
 ```
 
-
-
-| Project                                                                               | Description                                         |
-
-| ------------------------------------------------------------------------------------- | --------------------------------------------------- |
-
-| [Docassemble](https://github.com/jhpyle/docassemble)                                  | Full legal interview and document assembly platform |
-
-| [docassemble-AssemblyLine](https://github.com/SuffolkLITLab/docassemble-AssemblyLine) | Reusable interview-building framework               |
-
-| [A2J Author](https://www.a2jauthor.org/)                                              | Guided legal interviews and form completion         |
-
-| [Blawx](https://github.com/Lexpedite/blawx)                                           | Visual rules-as-code environment                    |
-
-| [OpenLaw](https://github.com/openlawteam/openlaw)                                     | Structured agreement automation                     |
-
-| [CommonAccord](https://github.com/CommonAccord)                                       | Structured legal transactions                       |
-
-
+| Project | Description | Stars |
+| :--- | :--- | :---: |
+| [Docassemble](https://github.com/jhpyle/docassemble) | Full legal interview and document assembly platform | [<img src="https://img.shields.io/github/stars/jhpyle/docassemble?style=social&color=white" alt="Stars"/>](https://github.com/jhpyle/docassemble/stargazers) |
+| [OpenLaw](https://github.com/openlawteam/openlaw) | Structured agreement automation | [<img src="https://img.shields.io/github/stars/openlawteam/openlaw?style=social&color=white" alt="Stars"/>](https://github.com/openlawteam/openlaw/stargazers) |
+| [Blawx](https://github.com/Lexpedite/blawx) | Visual rules-as-code environment | [<img src="https://img.shields.io/github/stars/Lexpedite/blawx?style=social&color=white" alt="Stars"/>](https://github.com/Lexpedite/blawx/stargazers) |
+| [CommonAccord](https://github.com/CommonAccord) | Structured legal transactions | [<img src="https://img.shields.io/github/stars/CommonAccord?style=social&color=white" alt="Stars"/>](https://github.com/CommonAccord/stargazers) |
+| [docassemble-AssemblyLine](https://github.com/SuffolkLITLab/docassemble-AssemblyLine) | Reusable interview-building framework | [<img src="https://img.shields.io/github/stars/SuffolkLITLab/docassemble-AssemblyLine?style=social&color=white" alt="Stars"/>](https://github.com/SuffolkLITLab/docassemble-AssemblyLine/stargazers) |
+| [A2J Author](https://www.a2jauthor.org/) | Guided legal interviews and form completion | N/A |
 
 Docassemble interviews can run as web applications and can contain complex branching logic and customized workflows.
 
@@ -352,37 +307,20 @@ Docassemble interviews can run as web applications and can contain complex branc
 
 # 🧩 Open-Source Template Engines
 
-
-
 Document automation does not always require a complete legal platform.
-
-
 
 A developer can combine a template engine with a document-generation library.
 
-
-
-| Project                                                                  | Technology         | Typical Use                |
-
-| ------------------------------------------------------------------------ | ------------------ | -------------------------- |
-
-| [Jinja2](https://github.com/pallets/jinja)                               | Python             | Template logic             |
-
-| [python-docx-template](https://github.com/elapouya/python-docx-template) | Python / Jinja2    | DOCX generation            |
-
-| [docxtpl](https://github.com/elapouya/python-docx-template)              | Python             | Word templates             |
-
-| [Mako](https://github.com/makotemplates/mako)                            | Python             | Dynamic document templates |
-
-| [Handlebars](https://github.com/handlebars-lang/handlebars.js)           | JavaScript         | Template generation        |
-
-| [Liquid](https://github.com/Shopify/liquid)                              | Ruby               | Safe template rendering    |
-
-| [Nunjucks](https://github.com/mozilla/nunjucks)                          | JavaScript         | Jinja-like templates       |
-
-| [Mustache](https://github.com/mustache)                                  | Multiple languages | Logic-light templates      |
-
-
+| Project | Technology | Typical Use | Stars |
+| :--- | :--- | :--- | :---: |
+| [Handlebars](https://github.com/handlebars-lang/handlebars.js) | JavaScript | Template generation | [<img src="https://img.shields.io/github/stars/handlebars-lang/handlebars.js?style=social&color=white" alt="Stars"/>](https://github.com/handlebars-lang/handlebars.js/stargazers) |
+| [Liquid](https://github.com/Shopify/liquid) | Ruby | Safe template rendering | [<img src="https://img.shields.io/github/stars/Shopify/liquid?style=social&color=white" alt="Stars"/>](https://github.com/Shopify/liquid/stargazers) |
+| [Jinja2](https://github.com/pallets/jinja) | Python | Template logic | [<img src="https://img.shields.io/github/stars/pallets/jinja?style=social&color=white" alt="Stars"/>](https://github.com/pallets/jinja/stargazers) |
+| [Nunjucks](https://github.com/mozilla/nunjucks) | JavaScript | Jinja-like templates | [<img src="https://img.shields.io/github/stars/mozilla/nunjucks?style=social&color=white" alt="Stars"/>](https://github.com/mozilla/nunjucks/stargazers) |
+| [Mustache](https://github.com/mustache) | Multiple languages | Logic-light templates | [<img src="https://img.shields.io/github/stars/mustache?style=social&color=white" alt="Stars"/>](https://github.com/mustache/stargazers) |
+| [python-docx-template](https://github.com/elapouya/python-docx-template) | Python / Jinja2 | DOCX generation | [<img src="https://img.shields.io/github/stars/elapouya/python-docx-template?style=social&color=white" alt="Stars"/>](https://github.com/elapouya/python-docx-template/stargazers) |
+| [docxtpl](https://github.com/elapouya/python-docx-template) | Python | Word templates | [<img src="https://img.shields.io/github/stars/elapouya/python-docx-template?style=social&color=white" alt="Stars"/>](https://github.com/elapouya/python-docx-template/stargazers) |
+| [Mako](https://github.com/makotemplates/mako) | Python | Dynamic document templates | [<img src="https://img.shields.io/github/stars/makotemplates/mako?style=social&color=white" alt="Stars"/>](https://github.com/makotemplates/mako/stargazers) |
 
 A simple legal-document generation system can therefore be implemented as:
 
@@ -420,65 +358,34 @@ Generated Contract
 
 # 📜 Open-Source Rules-as-Code
 
-
-
 Rules-as-code allows legal or regulatory logic to be represented as executable rules.
 
-
-
 ```text
-
                      Legal Rule
-
                          │
-
                          ▼
-
                   Machine-readable
-
                        Logic
-
                          │
-
               ┌──────────┼──────────┐
-
               ▼          ▼          ▼
-
            Eligible   Ineligible   Review
-
               │          │          │
-
               └──────────┼──────────┘
-
                          ▼
-
-                   Legal Workflow
-
+                    Legal Workflow
 ```
 
-
-
-| Project                                                           | Description                                      |
-
-| ----------------------------------------------------------------- | ------------------------------------------------ |
-
-| [Blawx](https://github.com/Lexpedite/blawx)                       | Visual rules-as-code environment                 |
-
-| [Catala](https://github.com/CatalaLang/catala)                    | Programming language for formalizing legislation |
-
-| [OpenFisca](https://github.com/openfisca/openfisca-core)          | Open-source policy and legislation simulation    |
-
-| [Accord Project](https://github.com/accordproject)                | Smart legal contracts                            |
-
-| [Cicero](https://github.com/accordproject/cicero)                 | Legal contract template language                 |
-
-| [LegalRuleML](https://www.oasis-open.org/committees/legalruleml/) | Standardization of legal rules                   |
-
-| [Akoma Ntoso](https://github.com/akomantoso)                      | Structured legal-document markup ecosystem       |
-
-| [LEOS](https://github.com/Metanorma/authoring)                    | Legislative drafting ecosystem                   |
-
-
+| Project | Description | Stars |
+| :--- | :--- | :---: |
+| [Catala](https://github.com/CatalaLang/catala) | Programming language for formalizing legislation | [<img src="https://img.shields.io/github/stars/CatalaLang/catala?style=social&color=white" alt="Stars"/>](https://github.com/CatalaLang/catala/stargazers) |
+| [OpenFisca](https://github.com/openfisca/openfisca-core) | Open-source policy and legislation simulation | [<img src="https://img.shields.io/github/stars/openfisca/openfisca-core?style=social&color=white" alt="Stars"/>](https://github.com/openfisca/openfisca-core/stargazers) |
+| [Accord Project](https://github.com/accordproject) | Smart legal contracts | [<img src="https://img.shields.io/github/stars/accordproject/cicero?style=social&color=white" alt="Stars"/>](https://github.com/accordproject/cicero/stargazers) |
+| [Cicero](https://github.com/accordproject/cicero) | Legal contract template language | [<img src="https://img.shields.io/github/stars/accordproject/cicero?style=social&color=white" alt="Stars"/>](https://github.com/accordproject/cicero/stargazers) |
+| [Blawx](https://github.com/Lexpedite/blawx) | Visual rules-as-code environment | [<img src="https://img.shields.io/github/stars/Lexpedite/blawx?style=social&color=white" alt="Stars"/>](https://github.com/Lexpedite/blawx/stargazers) |
+| [Akoma Ntoso](https://github.com/akomantoso) | Structured legal-document markup ecosystem | [<img src="https://img.shields.io/github/stars/akomantoso?style=social&color=white" alt="Stars"/>](https://github.com/akomantoso/stargazers) |
+| [LEOS](https://github.com/Metanorma/authoring) | Legislative drafting ecosystem | [<img src="https://img.shields.io/github/stars/Metanorma/authoring?style=social&color=white" alt="Stars"/>](https://github.com/Metanorma/authoring/stargazers) |
+| [LegalRuleML](https://www.oasis-open.org/committees/legalruleml/) | Standardization of legal rules | Standard |
 
 These projects are not all direct document-automation replacements; they are important **building blocks for encoding legal logic and structured legal content**.
 
@@ -584,35 +491,19 @@ This makes it conceptually relevant to:
 
 # 📝 Open-Source DOCX Automation
 
-
-
 Microsoft Word remains central to legal workflows.
-
-
 
 Useful open-source projects include:
 
-
-
-| Project                                                                  | Description                    |
-
-| ------------------------------------------------------------------------ | ------------------------------ |
-
-| [python-docx](https://github.com/python-openxml/python-docx)             | Read/write DOCX files          |
-
-| [python-docx-template](https://github.com/elapouya/python-docx-template) | Jinja2-based DOCX templating   |
-
-| [SuperDoc](https://github.com/superdoc-dev/superdoc)                     | Web-based DOCX editor          |
-
-| [Mammoth](https://github.com/mwilliamson/mammoth.js)                     | DOCX → HTML conversion         |
-
-| [LibreOffice](https://github.com/LibreOffice/core)                       | Headless document conversion   |
-
-| [docx4j](https://github.com/plutext/docx4j)                              | Java DOCX manipulation         |
-
-| [Open XML SDK](https://github.com/dotnet/Open-XML-SDK)                   | Open XML document manipulation |
-
-
+| Project | Description | Stars |
+| :--- | :--- | :---: |
+| [python-docx](https://github.com/python-openxml/python-docx) | Read/write DOCX files | [<img src="https://img.shields.io/github/stars/python-openxml/python-docx?style=social&color=white" alt="Stars"/>](https://github.com/python-openxml/python-docx/stargazers) |
+| [Mammoth](https://github.com/mwilliamson/mammoth.js) | DOCX → HTML conversion | [<img src="https://img.shields.io/github/stars/mwilliamson/mammoth.js?style=social&color=white" alt="Stars"/>](https://github.com/mwilliamson/mammoth.js/stargazers) |
+| [Open XML SDK](https://github.com/dotnet/Open-XML-SDK) | Open XML document manipulation | [<img src="https://img.shields.io/github/stars/dotnet/Open-XML-SDK?style=social&color=white" alt="Stars"/>](https://github.com/dotnet/Open-XML-SDK/stargazers) |
+| [python-docx-template](https://github.com/elapouya/python-docx-template) | Jinja2-based DOCX templating | [<img src="https://img.shields.io/github/stars/elapouya/python-docx-template?style=social&color=white" alt="Stars"/>](https://github.com/elapouya/python-docx-template/stargazers) |
+| [LibreOffice](https://github.com/LibreOffice/core) | Headless document conversion | [<img src="https://img.shields.io/github/stars/LibreOffice/core?style=social&color=white" alt="Stars"/>](https://github.com/LibreOffice/core/stargazers) |
+| [docx4j](https://github.com/plutext/docx4j) | Java DOCX manipulation | [<img src="https://img.shields.io/github/stars/plutext/docx4j?style=social&color=white" alt="Stars"/>](https://github.com/plutext/docx4j/stargazers) |
+| [SuperDoc](https://github.com/superdoc-dev/superdoc) | Web-based DOCX editor | [<img src="https://img.shields.io/github/stars/superdoc-dev/superdoc?style=social&color=white" alt="Stars"/>](https://github.com/superdoc-dev/superdoc/stargazers) |
 
 A production automation pipeline can therefore be:
 
@@ -668,59 +559,31 @@ PDF
 
 # 📑 Open-Source PDF Automation
 
-
-
-| Project                                                   | Description                 |
-
-| --------------------------------------------------------- | --------------------------- |
-
-| [WeasyPrint](https://github.com/Kozea/WeasyPrint)         | HTML/CSS → PDF              |
-
-| [ReportLab](https://github.com/Distrotech/reportlab)      | Programmatic PDF generation |
-
-| [PyMuPDF](https://github.com/pymupdf/PyMuPDF)             | PDF processing              |
-
-| [pypdf](https://github.com/py-pdf/pypdf)                  | PDF manipulation            |
-
-| [PDF.js](https://github.com/mozilla/pdf.js)               | PDF rendering               |
-
-| [LibreOffice](https://github.com/LibreOffice/core)        | Office → PDF conversion     |
-
-| [wkhtmltopdf](https://github.com/wkhtmltopdf/wkhtmltopdf) | HTML → PDF                  |
-
-| [Apache PDFBox](https://github.com/apache/pdfbox)         | Java PDF processing         |
-
-
-
----
+| Project | Description | Stars |
+| :--- | :--- | :---: |
+| [PDF.js](https://github.com/mozilla/pdf.js) | PDF rendering | [<img src="https://img.shields.io/github/stars/mozilla/pdf.js?style=social&color=white" alt="Stars"/>](https://github.com/mozilla/pdf.js/stargazers) |
+| [wkhtmltopdf](https://github.com/wkhtmltopdf/wkhtmltopdf) | HTML → PDF | [<img src="https://img.shields.io/github/stars/wkhtmltopdf/wkhtmltopdf?style=social&color=white" alt="Stars"/>](https://github.com/wkhtmltopdf/wkhtmltopdf/stargazers) |
+| [WeasyPrint](https://github.com/Kozea/WeasyPrint) | HTML/CSS → PDF | [<img src="https://img.shields.io/github/stars/Kozea/WeasyPrint?style=social&color=white" alt="Stars"/>](https://github.com/Kozea/WeasyPrint/stargazers) |
+| [PyMuPDF](https://github.com/pymupdf/PyMuPDF) | PDF processing | [<img src="https://img.shields.io/github/stars/pymupdf/PyMuPDF?style=social&color=white" alt="Stars"/>](https://github.com/pymupdf/PyMuPDF/stargazers) |
+| [pypdf](https://github.com/py-pdf/pypdf) | PDF manipulation | [<img src="https://img.shields.io/github/stars/py-pdf/pypdf?style=social&color=white" alt="Stars"/>](https://github.com/py-pdf/pypdf/stargazers) |
+| [LibreOffice](https://github.com/LibreOffice/core) | Office → PDF conversion | [<img src="https://img.shields.io/github/stars/LibreOffice/core?style=social&color=white" alt="Stars"/>](https://github.com/LibreOffice/core/stargazers) |
+| [Apache PDFBox](https://github.com/apache/pdfbox) | Java PDF processing | [<img src="https://img.shields.io/github/stars/apache/pdfbox?style=social&color=white" alt="Stars"/>](https://github.com/apache/pdfbox/stargazers) |
+| [ReportLab](https://github.com/Distrotech/reportlab) | Programmatic PDF generation | [<img src="https://img.shields.io/github/stars/Distrotech/reportlab?style=social&color=white" alt="Stars"/>](https://github.com/Distrotech/reportlab/stargazers) |
 
 
 
 # ✍️ Open-Source E-Signature Infrastructure
 
-
-
 Document automation frequently ends with signature collection.
 
-
-
-| Project                                                  | Description                       |
-
-| -------------------------------------------------------- | --------------------------------- |
-
-| [DocuSeal](https://github.com/docusealco/docuseal)       | Self-hosted document signing      |
-
-| [OpenSign](https://github.com/opensignlabs/opensign)     | Open-source e-signature platform  |
-
-| [LibreSign](https://github.com/LibreSign/libresign)      | Open-source signing for Nextcloud |
-
-| [Documenso](https://github.com/documenso/documenso)      | Open-source document signing      |
-
-| [SignServer](https://github.com/Keyfactor/signserver-ce) | Digital-signature infrastructure  |
-
-| [OpenXPKI](https://github.com/openxpki/openxpki)         | PKI infrastructure                |
-
-
+| Project | Description | Stars |
+| :--- | :--- | :---: |
+| [Documenso](https://github.com/documenso/documenso) | Open-source document signing | [<img src="https://img.shields.io/github/stars/documenso/documenso?style=social&color=white" alt="Stars"/>](https://github.com/documenso/documenso/stargazers) |
+| [DocuSeal](https://github.com/docusealco/docuseal) | Self-hosted document signing | [<img src="https://img.shields.io/github/stars/docusealco/docuseal?style=social&color=white" alt="Stars"/>](https://github.com/docusealco/docuseal/stargazers) |
+| [OpenSign](https://github.com/opensignlabs/opensign) | Open-source e-signature platform | [<img src="https://img.shields.io/github/stars/opensignlabs/opensign?style=social&color=white" alt="Stars"/>](https://github.com/opensignlabs/opensign/stargazers) |
+| [LibreSign](https://github.com/LibreSign/libresign) | Open-source signing for Nextcloud | [<img src="https://img.shields.io/github/stars/LibreSign/libresign?style=social&color=white" alt="Stars"/>](https://github.com/LibreSign/libresign/stargazers) |
+| [OpenXPKI](https://github.com/openxpki/openxpki) | PKI infrastructure | [<img src="https://img.shields.io/github/stars/openxpki/openxpki?style=social&color=white" alt="Stars"/>](https://github.com/openxpki/openxpki/stargazers) |
+| [SignServer](https://github.com/Keyfactor/signserver-ce) | Digital-signature infrastructure | [<img src="https://img.shields.io/github/stars/Keyfactor/signserver-ce?style=social&color=white" alt="Stars"/>](https://github.com/Keyfactor/signserver-ce/stargazers) |
 
 A complete legal automation workflow can therefore become:
 
@@ -764,87 +627,45 @@ Archive
 
 # 🤖 Open-Source AI Legal Document Automation
 
-
-
 AI can be added on top of traditional deterministic document automation.
 
-
-
 ```text
-
                      User
-
                       │
-
                       ▼
-
                 AI Assistant
-
                       │
-
           ┌───────────┼───────────┐
-
           ▼           ▼           ▼
-
        Intake      Drafting    Analysis
-
           │           │           │
-
           └───────────┼───────────┘
-
                       ▼
-
                 Rules Engine
-
                       │
-
                       ▼
-
                 Template Engine
-
                       │
-
                       ▼
-
                  DOCX / PDF
-
 ```
-
-
 
 Useful open-source building blocks:
 
-
-
-| Project                                                         | Role                             |
-
-| --------------------------------------------------------------- | -------------------------------- |
-
-| [Docassemble](https://github.com/jhpyle/docassemble)            | Deterministic legal interviews   |
-
-| [LangChain](https://github.com/langchain-ai/langchain)          | LLM application framework        |
-
-| [LlamaIndex](https://github.com/run-llama/llama_index)          | Retrieval and document workflows |
-
-| [Haystack](https://github.com/deepset-ai/haystack)              | RAG / document pipelines         |
-
-| [vLLM](https://github.com/vllm-project/vllm)                    | LLM inference                    |
-
-| [Ollama](https://github.com/ollama/ollama)                      | Local model serving              |
-
-| [Qdrant](https://github.com/qdrant/qdrant)                      | Vector database                  |
-
-| [Milvus](https://github.com/milvus-io/milvus)                   | Vector database                  |
-
-| [Weaviate](https://github.com/weaviate/weaviate)                | Vector search                    |
-
-| [Unstructured](https://github.com/Unstructured-IO/unstructured) | Document parsing                 |
-
-| [Docling](https://github.com/docling-project/docling)           | Document understanding           |
-
-| [GROBID](https://github.com/kermitt2/grobid)                    | Structured document extraction   |
-
-
+| Project | Role | Stars |
+| :--- | :--- | :---: |
+| [Ollama](https://github.com/ollama/ollama) | Local model serving | [<img src="https://img.shields.io/github/stars/ollama/ollama?style=social&color=white" alt="Stars"/>](https://github.com/ollama/ollama/stargazers) |
+| [LangChain](https://github.com/langchain-ai/langchain) | LLM application framework | [<img src="https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white" alt="Stars"/>](https://github.com/langchain-ai/langchain/stargazers) |
+| [LlamaIndex](https://github.com/run-llama/llama_index) | Retrieval and document workflows | [<img src="https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white" alt="Stars"/>](https://github.com/run-llama/llama_index/stargazers) |
+| [Milvus](https://github.com/milvus-io/milvus) | Vector database | [<img src="https://img.shields.io/github/stars/milvus-io/milvus?style=social&color=white" alt="Stars"/>](https://github.com/milvus-io/milvus/stargazers) |
+| [vLLM](https://github.com/vllm-project/vllm) | LLM inference | [<img src="https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white" alt="Stars"/>](https://github.com/vllm-project/vllm/stargazers) |
+| [Qdrant](https://github.com/qdrant/qdrant) | Vector database | [<img src="https://img.shields.io/github/stars/qdrant/qdrant?style=social&color=white" alt="Stars"/>](https://github.com/qdrant/qdrant/stargazers) |
+| [Haystack](https://github.com/deepset-ai/haystack) | RAG / document pipelines | [<img src="https://img.shields.io/github/stars/deepset-ai/haystack?style=social&color=white" alt="Stars"/>](https://github.com/deepset-ai/haystack/stargazers) |
+| [Docling](https://github.com/docling-project/docling) | Document understanding | [<img src="https://img.shields.io/github/stars/docling-project/docling?style=social&color=white" alt="Stars"/>](https://github.com/docling-project/docling/stargazers) |
+| [Weaviate](https://github.com/weaviate/weaviate) | Vector search | [<img src="https://img.shields.io/github/stars/weaviate/weaviate?style=social&color=white" alt="Stars"/>](https://github.com/weaviate/weaviate/stargazers) |
+| [Unstructured](https://github.com/Unstructured-IO/unstructured) | Document parsing | [<img src="https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=social&color=white" alt="Stars"/>](https://github.com/Unstructured-IO/unstructured/stargazers) |
+| [GROBID](https://github.com/kermitt2/grobid) | Structured document extraction | [<img src="https://img.shields.io/github/stars/kermitt2/grobid?style=social&color=white" alt="Stars"/>](https://github.com/kermitt2/grobid/stargazers) |
+| [Docassemble](https://github.com/jhpyle/docassemble) | Deterministic legal interviews | [<img src="https://img.shields.io/github/stars/jhpyle/docassemble?style=social&color=white" alt="Stars"/>](https://github.com/jhpyle/docassemble/stargazers) |
 
 A useful principle is:
 
@@ -860,41 +681,19 @@ A useful principle is:
 
 # 🔄 Open-Source Document Lifecycle Management
 
-
-
 Document automation increasingly overlaps with document lifecycle management.
 
-
-
-| Project                                                         | Primary Focus                 |
-
-| --------------------------------------------------------------- | ----------------------------- |
-
-| [Wraft](https://github.com/wraft/wraft)                         | Document lifecycle management |
-
-| [Docassemble](https://github.com/jhpyle/docassemble)            | Legal document generation     |
-
-| [DocuSeal](https://github.com/docusealco/docuseal)              | Signing                       |
-
-| [OpenSign](https://github.com/opensignlabs/opensign)            | Signing                       |
-
-| [Documenso](https://github.com/documenso/documenso)             | Signing                       |
-
-| [SuperDoc](https://github.com/superdoc-dev/superdoc)            | Document editing              |
-
-| [Nextcloud](https://github.com/nextcloud/server)                | Document collaboration        |
-
-| [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) | Document management           |
-
-| [Mayan EDMS](https://github.com/mayan-edms/Mayan-EDMS)          | Document management           |
-
-
-
----
-
-
-
-# 🏗️ Legal Document Automation Architecture
+| Project | Primary Focus | Stars |
+| :--- | :--- | :---: |
+| [Nextcloud](https://github.com/nextcloud/server) | Document collaboration | [<img src="https://img.shields.io/github/stars/nextcloud/server?style=social&color=white" alt="Stars"/>](https://github.com/nextcloud/server/stargazers) |
+| [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) | Document management | [<img src="https://img.shields.io/github/stars/paperless-ngx/paperless-ngx?style=social&color=white" alt="Stars"/>](https://github.com/paperless-ngx/paperless-ngx/stargazers) |
+| [Documenso](https://github.com/documenso/documenso) | Signing | [<img src="https://img.shields.io/github/stars/documenso/documenso?style=social&color=white" alt="Stars"/>](https://github.com/documenso/documenso/stargazers) |
+| [DocuSeal](https://github.com/docusealco/docuseal) | Signing | [<img src="https://img.shields.io/github/stars/docusealco/docuseal?style=social&color=white" alt="Stars"/>](https://github.com/docusealco/docuseal/stargazers) |
+| [OpenSign](https://github.com/opensignlabs/opensign) | Signing | [<img src="https://img.shields.io/github/stars/opensignlabs/opensign?style=social&color=white" alt="Stars"/>](https://github.com/opensignlabs/opensign/stargazers) |
+| [Mayan EDMS](https://github.com/mayan-edms/Mayan-EDMS) | Document management | [<img src="https://img.shields.io/github/stars/mayan-edms/Mayan-EDMS?style=social&color=white" alt="Stars"/>](https://github.com/mayan-edms/Mayan-EDMS/stargazers) |
+| [Docassemble](https://github.com/jhpyle/docassemble) | Legal document generation | [<img src="https://img.shields.io/github/stars/jhpyle/docassemble?style=social&color=white" alt="Stars"/>](https://github.com/jhpyle/docassemble/stargazers) |
+| [SuperDoc](https://github.com/superdoc-dev/superdoc) | Document editing | [<img src="https://img.shields.io/github/stars/superdoc-dev/superdoc?style=social&color=white" alt="Stars"/>](https://github.com/superdoc-dev/superdoc/stargazers) |
+| [Wraft](https://github.com/wraft/wraft) | Document lifecycle management | [<img src="https://img.shields.io/github/stars/wraft/wraft?style=social&color=white" alt="Stars"/>](https://github.com/wraft/wraft/stargazers) |
 
 
 
@@ -1917,139 +1716,41 @@ Deterministic System
 
 
 ```mermaid
-
-mindmap
-
-  root((Legal Document Automation))
-
-    Document Assembly
-
-      Docassemble
-
-      AssemblyLine
-
-      CommonAccord
-
-      Accord Project
-
-      Cicero
-
-    Interviews
-
-      Docassemble
-
-      AssemblyLine
-
-      A2J
-
-    Template Engines
-
-      Jinja2
-
-      docxtpl
-
-      Mako
-
-      Nunjucks
-
-      Handlebars
-
-    Rules as Code
-
-      Blawx
-
-      Catala
-
-      OpenFisca
-
-      LegalRuleML
-
-    Document Formats
-
-      DOCX
-
-      PDF
-
-      Markdown
-
-      HTML
-
-      Akoma Ntoso
-
-    DOCX
-
-      python-docx
-
-      python-docx-template
-
-      SuperDoc
-
-      docx4j
-
-      LibreOffice
-
-    PDF
-
-      WeasyPrint
-
-      ReportLab
-
-      PyMuPDF
-
-      PDFBox
-
-      pypdf
-
-    AI
-
-      Ollama
-
-      vLLM
-
-      LlamaIndex
-
-      LangChain
-
-      Haystack
-
-      Docling
-
-      Unstructured
-
-    Signing
-
-      DocuSeal
-
-      OpenSign
-
-      Documenso
-
-      LibreSign
-
-    DMS
-
-      Paperless-ngx
-
-      Mayan EDMS
-
-      Wraft
-
-    Applications
-
-      Contracts
-
-      Court Forms
-
-      Intake
-
-      Legal Aid
-
-      Employment
-
-      Corporate
-
-      Compliance
-
+flowchart TD
+    Root["Legal Document Automation"] --> Assembly["Document Assembly"]
+    Assembly --> Docassemble["Docassemble"]
+    Assembly --> AssemblyLine["AssemblyLine"]
+    Assembly --> CommonAccord["CommonAccord"]
+    Assembly --> AccordProject["Accord Project"]
+    Assembly --> Cicero["Cicero"]
+
+    Root --> Interviews["Guided Interviews"]
+    Interviews --> DocassembleInt["Docassemble"]
+    Interviews --> AssemblyLineInt["AssemblyLine"]
+    Interviews --> A2J["A2J Author"]
+
+    Root --> Templates["Template Engines"]
+    Templates --> Jinja2["Jinja2"]
+    Templates --> Docxtpl["docxtpl"]
+    Templates --> Mako["Mako"]
+    Templates --> Nunjucks["Nunjucks"]
+    Templates --> Handlebars["Handlebars"]
+
+    Root --> Rules["Rules as Code"]
+    Rules --> Blawx["Blawx"]
+    Rules --> Catala["Catala"]
+    Rules --> OpenFisca["OpenFisca"]
+    Rules --> LegalRuleML["LegalRuleML"]
+
+    Root --> Signing["E-Signature"]
+    Signing --> DocuSeal["DocuSeal"]
+    Signing --> OpenSign["OpenSign"]
+    Signing --> Documenso["Documenso"]
+
+    Root --> DMS["Document Lifecycle"]
+    DMS --> Paperless["Paperless-ngx"]
+    DMS --> Mayan["Mayan EDMS"]
+    DMS --> Wraft["Wraft"]
 ```
 
 
