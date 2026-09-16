@@ -907,162 +907,81 @@ This allows the AI layer to assist with drafting without making the entire docum
 
 # 🧩 Commercial Platform → Open-Source Equivalent
 
-
-
-| Commercial Platform              | Open-Source Equivalent / Building Blocks                     |
-
-| -------------------------------- | ------------------------------------------------------------ |
-
-| **Gavel**                        | Docassemble + AssemblyLine + Jinja2 + python-docx-template   |
-
-| **Documate**                     | Docassemble + AssemblyLine + Jinja2                          |
-
-| **ClauseBase**                   | Docassemble + Jinja2 + python-docx-template + clause library |
-
-| **Woodpecker**                   | Docassemble + Jinja2 + DOCX/PDF tooling                      |
-
-| **Legito**                       | Docassemble + template engine + rules engine                 |
-
-| **HotDocs**                      | Docassemble + Jinja2 + python-docx-template                  |
-
-| **Afterpattern**                 | Docassemble + rules engine + template engine                 |
-
-| **BRYTER**                       | Docassemble + Blawx + workflow engine                        |
-
-| **Checkbox**                     | Docassemble + rules engine + web application                 |
-
-| **Avvoka**                       | Docassemble + template engine + workflow + e-signature       |
-
-| **Contract Express**             | Docassemble + Jinja2 + DOCX automation                       |
-
-| **Neota Logic**                  | Docassemble + Blawx + rules-as-code                          |
-
-| **Cicero / Accord Project**      | Accord Project + Cicero                                      |
-
-| **Legal Expert System**          | Docassemble + Python + YAML                                  |
-
-| **Legal Form Automation**        | Docassemble + AssemblyLine                                   |
-
-| **Contract Generation**          | Jinja2 + python-docx-template + LibreOffice                  |
-
-| **AI Legal Document Automation** | Docassemble + LLM + RAG + rules engine                       |
-
-| **Document Lifecycle**           | Wraft + DocuSeal + document storage                          |
-
-| **E-signature**                  | DocuSeal / OpenSign / Documenso                              |
-
-| **Full Open-Source Stack**       | Docassemble + Jinja2 + Finer rules + DOCX/PDF + e-signature  |
-
-
-
----
+| Commercial Platform | Open-Source Equivalent / Building Blocks |
+| :--- | :--- |
+| **Gavel** | Docassemble + AssemblyLine + Jinja2 + python-docx-template |
+| **Documate** | Docassemble + AssemblyLine + Jinja2 |
+| **ClauseBase** | Docassemble + Jinja2 + python-docx-template + clause library |
+| **Woodpecker** | Docassemble + Jinja2 + DOCX/PDF tooling |
+| **Legito** | Docassemble + template engine + rules engine |
+| **HotDocs** | Docassemble + Jinja2 + python-docx-template |
+| **Afterpattern** | Docassemble + rules engine + template engine |
+| **BRYTER** | Docassemble + Blawx + workflow engine |
+| **Checkbox** | Docassemble + rules engine + web application |
+| **Avvoka** | Docassemble + template engine + workflow + e-signature |
+| **Contract Express** | Docassemble + Jinja2 + DOCX automation |
+| **Neota Logic** | Docassemble + Blawx + rules-as-code |
+| **Cicero / Accord Project** | Accord Project + Cicero |
+| **Legal Expert System** | Docassemble + Python + YAML |
+| **Legal Form Automation** | Docassemble + AssemblyLine |
+| **Contract Generation** | Jinja2 + python-docx-template + LibreOffice |
+| **AI Legal Document Automation** | Docassemble + LLM + RAG + rules engine |
+| **Document Lifecycle** | Wraft + DocuSeal + document storage |
+| **E-signature** | DocuSeal / OpenSign / Documenso |
+| **Full Open-Source Stack** | Docassemble + Jinja2 + Finer rules + DOCX/PDF + e-signature |
 
 
 
 # ⚖️ Commercial vs Open-Source
 
-
-
-| Capability                | Commercial Platform | Open-Source Stack   |
-
-| ------------------------- | ------------------- | ------------------- |
-
-| Guided Interviews         | ✅                   | ✅                   |
-
-| Conditional Logic         | ✅                   | ✅                   |
-
-| Document Assembly         | ✅                   | ✅                   |
-
-| DOCX Generation           | ✅                   | ✅                   |
-
-| PDF Generation            | ✅                   | ✅                   |
-
-| Clause Libraries          | ✅                   | ✅                   |
-
-| Rules Engine              | ✅                   | ✅                   |
-
-| Client Portal             | ✅                   | ✅ Build             |
-
-| Visual Authoring          | Usually ✅           | ⚠️ Varies           |
-
-| No-Code Authoring         | Usually ✅           | ⚠️ Limited          |
-
-| AI Assistance             | Increasingly ✅      | ✅ Build             |
-
-| LLM Integration           | ✅                   | ✅                   |
-
-| RAG                       | Usually             | ✅ Build             |
-
-| E-Signature               | Usually integrated  | ✅ Via OSS           |
-
-| Workflow                  | ✅                   | ✅ Build             |
-
-| Audit Trail               | ✅                   | ✅ Build             |
-
-| Version Control           | ✅                   | ✅                   |
-
-| Self Hosting              | Limited             | ✅                   |
-
-| Source Code               | ❌                   | ✅                   |
-
-| Customization             | Medium              | Very High           |
-
-| Data Ownership            | Vendor-dependent    | Full control        |
-
-| Air-Gapped Deployment     | Limited             | ✅                   |
-
-| Vendor Lock-In            | Higher              | Lower               |
-
-| Enterprise Support        | ✅                   | Community / vendors |
-
-| Legal Templates           | Often included      | Build / contribute  |
-
-| Regulatory Responsibility | Customer + vendor   | Customer            |
-
-| Implementation Effort     | Lower               | Higher              |
-
-
-
----
+| Capability | Commercial Platform | Open-Source Stack |
+| :--- | :--- | :--- |
+| Guided Interviews | ✅ | ✅ |
+| Conditional Logic | ✅ | ✅ |
+| Document Assembly | ✅ | ✅ |
+| DOCX Generation | ✅ | ✅ |
+| PDF Generation | ✅ | ✅ |
+| Clause Libraries | ✅ | ✅ |
+| Rules Engine | ✅ | ✅ |
+| Client Portal | ✅ | ✅ Build |
+| Visual Authoring | Usually ✅ | ⚠️ Varies |
+| No-Code Authoring | Usually ✅ | ⚠️ Limited |
+| AI Assistance | Increasingly ✅ | ✅ Build |
+| LLM Integration | ✅ | ✅ |
+| RAG | Usually | ✅ Build |
+| E-Signature | Usually integrated | ✅ Via OSS |
+| Workflow | ✅ | ✅ Build |
+| Audit Trail | ✅ | ✅ Build |
+| Version Control | ✅ | ✅ |
+| Self Hosting | Limited | ✅ |
+| Source Code | ❌ | ✅ |
+| Customization | Medium | Very High |
+| Data Ownership | Vendor-dependent | Full control |
+| Air-Gapped Deployment | Limited | ✅ |
+| Vendor Lock-In | Higher | Lower |
+| Enterprise Support | ✅ | Community / vendors |
+| Legal Templates | Often included | Build / contribute |
+| Regulatory Responsibility | Customer + vendor | Customer |
+| Implementation Effort | Lower | Higher |
 
 
 
 # 📊 Legal Document Automation Comparison
 
-
-
-| Project        | Document Assembly | Interviews | Rules | DOCX | PDF |    E-Sign   | Self-Host |
-
-| -------------- | :---------------: | :--------: | :---: | :--: | :-: | :---------: | :-------: |
-
-| Docassemble    |         ✅         |      ✅     |   ✅   |   ✅  |  ✅  | Integration |     ✅     |
-
-| AssemblyLine   |         ✅         |      ✅     |   ✅   |   ✅  |  ✅  | Integration |     ✅     |
-
-| Accord Project |         ✅         |     ⚠️     |   ✅   |  ⚠️  |  ⚠️ |      ⚠️     |     ✅     |
-
-| Cicero         |         ✅         |      ❌     |   ✅   |  ⚠️  |  ⚠️ |      ❌      |     ✅     |
-
-| Blawx          |         ⚠️        |     ⚠️     |   ✅   |   ❌  |  ❌  |      ❌      |     ✅     |
-
-| Catala         |         ❌         |      ❌     |   ✅   |   ❌  |  ❌  |      ❌      |     ✅     |
-
-| OpenFisca      |         ❌         |      ❌     |   ✅   |   ❌  |  ❌  |      ❌      |     ✅     |
-
-| CommonAccord   |         ✅         |     ⚠️     |   ✅   |  ⚠️  |  ⚠️ |      ❌      |     ✅     |
-
-| Wraft          |         ✅         |      ❌     |   ⚠️  |   ✅  |  ✅  | Integration |     ✅     |
-
-| DocuSeal       |         ❌         |      ❌     |   ❌   |  ⚠️  |  ✅  |      ✅      |     ✅     |
-
-| OpenSign       |         ❌         |      ❌     |   ❌   |  ⚠️  |  ✅  |      ✅      |     ✅     |
-
-| Documenso      |         ❌         |      ❌     |   ❌   |  ⚠️  |  ✅  |      ✅      |     ✅     |
-
-
-
----
-
+| Project | Document Assembly | Interviews | Rules | DOCX | PDF | E-Sign | Self-Host |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| [Documenso](https://github.com/documenso/documenso) [<img src="https://img.shields.io/github/stars/documenso/documenso?style=social&color=white" alt="Stars"/>](https://github.com/documenso/documenso/stargazers) | ❌ | ❌ | ❌ | ⚠️ | ✅ | ✅ | ✅ |
+| [DocuSeal](https://github.com/docusealco/docuseal) [<img src="https://img.shields.io/github/stars/docusealco/docuseal?style=social&color=white" alt="Stars"/>](https://github.com/docusealco/docuseal/stargazers) | ❌ | ❌ | ❌ | ⚠️ | ✅ | ✅ | ✅ |
+| [OpenSign](https://github.com/opensignlabs/opensign) [<img src="https://img.shields.io/github/stars/opensignlabs/opensign?style=social&color=white" alt="Stars"/>](https://github.com/opensignlabs/opensign/stargazers) | ❌ | ❌ | ❌ | ⚠️ | ✅ | ✅ | ✅ |
+| [Docassemble](https://github.com/jhpyle/docassemble) [<img src="https://img.shields.io/github/stars/jhpyle/docassemble?style=social&color=white" alt="Stars"/>](https://github.com/jhpyle/docassemble/stargazers) | ✅ | ✅ | ✅ | ✅ | ✅ | Integration | ✅ |
+| [Catala](https://github.com/CatalaLang/catala) [<img src="https://img.shields.io/github/stars/CatalaLang/catala?style=social&color=white" alt="Stars"/>](https://github.com/CatalaLang/catala/stargazers) | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ |
+| [OpenFisca](https://github.com/openfisca/openfisca-core) [<img src="https://img.shields.io/github/stars/openfisca/openfisca-core?style=social&color=white" alt="Stars"/>](https://github.com/openfisca/openfisca-core/stargazers) | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ |
+| [Accord Project](https://github.com/accordproject) [<img src="https://img.shields.io/github/stars/accordproject/cicero?style=social&color=white" alt="Stars"/>](https://github.com/accordproject/cicero/stargazers) | ✅ | ⚠️ | ✅ | ⚠️ | ⚠️ | ⚠️ | ✅ |
+| [Cicero](https://github.com/accordproject/cicero) [<img src="https://img.shields.io/github/stars/accordproject/cicero?style=social&color=white" alt="Stars"/>](https://github.com/accordproject/cicero/stargazers) | ✅ | ❌ | ✅ | ⚠️ | ⚠️ | ❌ | ✅ |
+| [Blawx](https://github.com/Lexpedite/blawx) [<img src="https://img.shields.io/github/stars/Lexpedite/blawx?style=social&color=white" alt="Stars"/>](https://github.com/Lexpedite/blawx/stargazers) | ⚠️ | ⚠️ | ✅ | ❌ | ❌ | ❌ | ✅ |
+| [Wraft](https://github.com/wraft/wraft) [<img src="https://img.shields.io/github/stars/wraft/wraft?style=social&color=white" alt="Stars"/>](https://github.com/wraft/wraft/stargazers) | ✅ | ❌ | ⚠️ | ✅ | ✅ | Integration | ✅ |
+| [CommonAccord](https://github.com/CommonAccord) [<img src="https://img.shields.io/github/stars/CommonAccord?style=social&color=white" alt="Stars"/>](https://github.com/CommonAccord/stargazers) | ✅ | ⚠️ | ✅ | ⚠️ | ⚠️ | ❌ | ✅ |
+| [docassemble-AssemblyLine](https://github.com/SuffolkLITLab/docassemble-AssemblyLine) [<img src="https://img.shields.io/github/stars/SuffolkLITLab/docassemble-AssemblyLine?style=social&color=white" alt="Stars"/>](https://github.com/SuffolkLITLab/docassemble-AssemblyLine/stargazers) | ✅ | ✅ | ✅ | ✅ | ✅ | Integration | ✅ |
 
 
 # 🚀 Recommended Open-Source Stacks
@@ -1399,57 +1318,27 @@ Signed Agreement
 
 # 🎯 Recommended Projects by Use Case
 
-
-
-| Use Case                          | Recommended Starting Point              |
-
-| --------------------------------- | --------------------------------------- |
-
-| Full open-source legal automation | **Docassemble**                         |
-
-| Legal guided interviews           | **Docassemble**                         |
-
-| Court forms                       | **Docassemble + AssemblyLine**          |
-
-| No-code legal workflows           | **Docassemble + custom visual builder** |
-
-| HotDocs alternative               | **Docassemble**                         |
-
-| Gavel alternative                 | **Docassemble + AssemblyLine + Jinja2** |
-
-| Contract template automation      | **Jinja2 + python-docx-template**       |
-
-| DOCX automation                   | **python-docx-template**                |
-
-| PDF automation                    | **WeasyPrint / ReportLab**              |
-
-| Rules-as-code                     | **Blawx / Catala / OpenFisca**          |
-
-| Smart legal contracts             | **Accord Project / Cicero**             |
-
-| Structured agreements             | **CommonAccord**                        |
-
-| AI legal drafting                 | **Docassemble + LLM + RAG**             |
-
-| Local/private AI                  | **Docassemble + Ollama / vLLM**         |
-
-| Contract signing                  | **DocuSeal / Documenso / OpenSign**     |
-
-| Document lifecycle                | **Wraft**                               |
-
-| Legal document storage            | **Paperless-ngx / Mayan EDMS**          |
-
-| Legal RAG                         | **Docling + Qdrant + LLM**              |
-
-| Enterprise automation             | **Docassemble + Temporal + PostgreSQL** |
-
-
-
----
-
-
-
-# 🏢 Building a Gavel Alternative
+| Use Case | Recommended Starting Point |
+| :--- | :--- |
+| Full open-source legal automation | **Docassemble** |
+| Legal guided interviews | **Docassemble** |
+| Court forms | **Docassemble + AssemblyLine** |
+| No-code legal workflows | **Docassemble + custom visual builder** |
+| HotDocs alternative | **Docassemble** |
+| Gavel alternative | **Docassemble + AssemblyLine + Jinja2** |
+| Contract template automation | **Jinja2 + python-docx-template** |
+| DOCX automation | **python-docx-template** |
+| PDF automation | **WeasyPrint / ReportLab** |
+| Rules-as-code | **Blawx / Catala / OpenFisca** |
+| Smart legal contracts | **Accord Project / Cicero** |
+| Structured agreements | **CommonAccord** |
+| AI legal drafting | **Docassemble + LLM + RAG** |
+| Local/private AI | **Docassemble + Ollama / vLLM** |
+| Contract signing | **DocuSeal / Documenso / OpenSign** |
+| Document lifecycle | **Wraft** |
+| Legal document storage | **Paperless-ngx / Mayan EDMS** |
+| Legal RAG | **Docling + Qdrant + LLM** |
+| Enterprise automation | **Docassemble + Temporal + PostgreSQL** |
 
 
 
