@@ -172,54 +172,6 @@ Commercial platforms provide managed authoring environments, document templates,
 
 > **Historical note:** Documate has been incorporated into the Gavel product family; Gavel's own documentation describes Documate as having become Gavel.
 
------------------------------------------------------ | ---------------- | ------------------------------ | ------------------------------------------------------------- |
-
-| [Gavel](https://www.gavel.io/)                        | Gavel            | No-code legal automation       | Document automation, intake, workflows, PDF/DOCX automation   |
-
-| [ClauseBase](https://www.clausebase.com/)             | ClauseBase       | Contract automation            | Clause libraries, document automation, conditional logic      |
-
-| [Documate](https://www.documate.org/)                 | Documate / Gavel | Legal document automation      | Document assembly and guided interviews                       |
-
-| [Woodpecker](https://www.woodpeckerweb.com/)          | Woodpecker       | Legal document automation      | Interviews, document assembly and workflow automation         |
-
-| [Legito](https://www.legito.com/)                     | Legito           | Document automation            | No-code templates, document assembly and workflows            |
-
-| [HotDocs](https://www.hotdocs.com/)                   | Caret Legal      | Document automation            | Template-based document assembly and interviews               |
-
-| [Afterpattern](https://afterpattern.com/)             | Afterpattern     | Legal automation               | Visual document automation and workflows                      |
-
-| [BRYTER](https://bryter.com/)                         | BRYTER           | No-code legal automation       | Decision trees, legal workflows, client applications          |
-
-| [Checkbox](https://www.checkbox.ai/)                  | Checkbox         | Legal workflow automation      | No-code legal apps, intake and document automation            |
-
-| [Avvoka](https://www.avvoka.com/)                     | Avvoka           | Contract automation            | Contract drafting, automation, collaboration and workflows    |
-
-| [Clio Draft](https://www.clio.com/)                   | Clio             | Legal document automation      | Document automation integrated with legal practice management |
-
-| [Litera Create](https://www.litera.com/)              | Litera           | Document drafting              | Legal document creation and Microsoft Word integration        |
-
-| [Contract Express](https://legal.thomsonreuters.com/) | Thomson Reuters  | Enterprise document automation | Legal templates, interviews and document assembly             |
-
-| [Neota Logic](https://www.neotalogic.com/)            | Neota Logic      | Legal automation               | Expert systems, decision trees and legal workflows            |
-
-| [DocJuris](https://www.docjuris.com/)                 | DocJuris         | Contract automation            | Contract workflows and review                                 |
-
-| [SpotDraft](https://www.spotdraft.com/)               | SpotDraft        | Contract lifecycle             | Contract creation, workflows and management                   |
-
-| [Ironclad](https://ironcladapp.com/)                  | Ironclad         | Contract lifecycle             | Contract creation, workflows and lifecycle management         |
-
-| [Juro](https://juro.com/)                             | Juro             | Contract automation            | Collaborative contract creation and workflow                  |
-
-| [Contractbook](https://contractbook.com/)             | Contractbook     | Contract management            | Contract creation, collaboration and signing                  |
-
-| [Malbek](https://www.malbek.io/)                      | Malbek           | CLM                            | Contract lifecycle and automation                             |
-
-
-
-> **Historical note:** Documate has been incorporated into the Gavel product family; Gavel's own documentation describes Documate as having become Gavel.
-
-
-
 ---
 
 
